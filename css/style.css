@@ -1,5 +1,5 @@
 body {
-   
+
     background-image: url('../victorian.jpg');
     background-size: cover;
     margin: 0;
@@ -13,7 +13,7 @@ body {
     margin: 20px;
     font-size: 25px;
     text-align: center;
-    color: #3e3e3e; 
+    color: #3e3e3e;
 }
 
 #choices {
@@ -27,7 +27,7 @@ button {
     padding: 10px 20px;
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
-    background-color: #d3bfb1; 
+    background-color: #d3bfb1;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -35,7 +35,7 @@ button {
 }
 
 button:hover {
-    background-color: #b49f92; 
+    background-color: #b49f92;
 }
 
 button:focus {
@@ -45,15 +45,24 @@ button:focus {
 .game-container {
     max-width: 600px;
     margin: 50px auto;
-    background-color: #f8f0e3; 
+    background-color: #f8f0e3;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
 }
-#final-text-1, #final-text-2 {
+
+#final-text-1,
+#final-text-2 {
     visibility: hidden;
-    text-align: center; 
-    margin: 0 auto; 
-    width: 100%; 
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
     font-size: 18px;
+}
+
+#story-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }
