@@ -4,16 +4,16 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
-    font-family: "Cedarville Cursive", cursive;
+    font-family: "Special Elite", system-ui;
     font-weight: 400;
     font-style: normal;
 }
 
 #story-text {
     margin: 20px;
-    font-size: 24px;
+    font-size: 25px;
     text-align: center;
-    color: #3e3e3e; /* Dark gray */
+    color: #3e3e3e; 
 }
 
 #choices {
@@ -27,7 +27,7 @@ button {
     padding: 10px 20px;
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
-    background-color: #d3bfb1; /* Light brown */
+    background-color: #d3bfb1; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -35,7 +35,7 @@ button {
 }
 
 button:hover {
-    background-color: #b49f92; /* Darker brown on hover */
+    background-color: #b49f92; 
 }
 
 button:focus {
@@ -45,8 +45,15 @@ button:focus {
 .game-container {
     max-width: 600px;
     margin: 50px auto;
-    background-color: #fff; /* White background */
+    background-color: #f8f0e3; 
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 1); /* Soft shadow */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+#final-text-1, #final-text-2 {
+    visibility: hidden;
+    text-align: center; 
+    margin: 0 auto; 
+    width: 100%; 
+    font-size: 18px;
 }
